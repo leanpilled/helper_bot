@@ -1,0 +1,386 @@
+[
+    {
+        "label": "logging",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "logging",
+        "description": "logging",
+        "detail": "logging",
+        "documentation": {}
+    },
+    {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {}
+    },
+    {
+        "label": "Bot",
+        "importPath": "aiogram",
+        "description": "aiogram",
+        "isExtraImport": true,
+        "detail": "aiogram",
+        "documentation": {}
+    },
+    {
+        "label": "Dispatcher",
+        "importPath": "aiogram",
+        "description": "aiogram",
+        "isExtraImport": true,
+        "detail": "aiogram",
+        "documentation": {}
+    },
+    {
+        "label": "types",
+        "importPath": "aiogram",
+        "description": "aiogram",
+        "isExtraImport": true,
+        "detail": "aiogram",
+        "documentation": {}
+    },
+    {
+        "label": "Bot",
+        "importPath": "aiogram",
+        "description": "aiogram",
+        "isExtraImport": true,
+        "detail": "aiogram",
+        "documentation": {}
+    },
+    {
+        "label": "Dispatcher",
+        "importPath": "aiogram",
+        "description": "aiogram",
+        "isExtraImport": true,
+        "detail": "aiogram",
+        "documentation": {}
+    },
+    {
+        "label": "types",
+        "importPath": "aiogram",
+        "description": "aiogram",
+        "isExtraImport": true,
+        "detail": "aiogram",
+        "documentation": {}
+    },
+    {
+        "label": "executor",
+        "importPath": "aiogram",
+        "description": "aiogram",
+        "isExtraImport": true,
+        "detail": "aiogram",
+        "documentation": {}
+    },
+    {
+        "label": "LoggingMiddleware",
+        "importPath": "aiogram.contrib.middlewares.logging",
+        "description": "aiogram.contrib.middlewares.logging",
+        "isExtraImport": true,
+        "detail": "aiogram.contrib.middlewares.logging",
+        "documentation": {}
+    },
+    {
+        "label": "ParseMode",
+        "importPath": "aiogram.types",
+        "description": "aiogram.types",
+        "isExtraImport": true,
+        "detail": "aiogram.types",
+        "documentation": {}
+    },
+    {
+        "label": "executor",
+        "importPath": "aiogram.utils",
+        "description": "aiogram.utils",
+        "isExtraImport": true,
+        "detail": "aiogram.utils",
+        "documentation": {}
+    },
+    {
+        "label": "text",
+        "importPath": "aiogram.utils.markdown",
+        "description": "aiogram.utils.markdown",
+        "isExtraImport": true,
+        "detail": "aiogram.utils.markdown",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "cv2",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "cv2",
+        "description": "cv2",
+        "detail": "cv2",
+        "documentation": {}
+    },
+    {
+        "label": "asyncio",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "asyncio",
+        "description": "asyncio",
+        "detail": "asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "openai",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "openai",
+        "description": "openai",
+        "detail": "openai",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "MemoryStorage",
+        "importPath": "aiogram.contrib.fsm_storage.memory",
+        "description": "aiogram.contrib.fsm_storage.memory",
+        "isExtraImport": true,
+        "detail": "aiogram.contrib.fsm_storage.memory",
+        "documentation": {}
+    },
+    {
+        "label": "FSMContext",
+        "importPath": "aiogram.dispatcher",
+        "description": "aiogram.dispatcher",
+        "isExtraImport": true,
+        "detail": "aiogram.dispatcher",
+        "documentation": {}
+    },
+    {
+        "label": "Command",
+        "importPath": "aiogram.dispatcher.filters",
+        "description": "aiogram.dispatcher.filters",
+        "isExtraImport": true,
+        "detail": "aiogram.dispatcher.filters",
+        "documentation": {}
+    },
+    {
+        "label": "State",
+        "importPath": "aiogram.dispatcher.filters.state",
+        "description": "aiogram.dispatcher.filters.state",
+        "isExtraImport": true,
+        "detail": "aiogram.dispatcher.filters.state",
+        "documentation": {}
+    },
+    {
+        "label": "StatesGroup",
+        "importPath": "aiogram.dispatcher.filters.state",
+        "description": "aiogram.dispatcher.filters.state",
+        "isExtraImport": true,
+        "detail": "aiogram.dispatcher.filters.state",
+        "documentation": {}
+    },
+    {
+        "label": "utc",
+        "importPath": "pytz",
+        "description": "pytz",
+        "isExtraImport": true,
+        "detail": "pytz",
+        "documentation": {}
+    },
+    {
+        "label": "resize_image",
+        "kind": 2,
+        "importPath": "1",
+        "description": "1",
+        "peekOfCode": "def resize_image(image_path, width, height):\n    image = cv2.imread(image_path)\n    if width and height:\n        image_resized = cv2.resize(image, (width, height))\n    elif width is not None:\n        aspect_ratio = width / image.shape[1]\n        new_height = int(image.shape[0] * aspect_ratio)\n        image_resized = cv2.resize(image, (width, new_height))\n    else:\n        aspect_ratio = height / image.shape[0]",
+        "detail": "1",
+        "documentation": {}
+    },
+    {
+        "label": "rotate_image",
+        "kind": 2,
+        "importPath": "1",
+        "description": "1",
+        "peekOfCode": "def rotate_image(image_path, angle):\n    image = cv2.imread(image_path)\n    height, width = image.shape[:2]\n    rotation_matrix = cv2.getRotationMatrix2D((width / 2, height / 2), angle, 1)\n    rotated_image = cv2.warpAffine(image, rotation_matrix, (width, height))\n    cv2.imwrite(\"rotated_image.jpg\", rotated_image)\ndef adjust_brightness(image_path, brightness):\n    image = cv2.imread(image_path)\n    adjusted_image = cv2.convertScaleAbs(image, beta=brightness)\n    cv2.imwrite(\"adjusted_image.jpg\", adjusted_image)",
+        "detail": "1",
+        "documentation": {}
+    },
+    {
+        "label": "adjust_brightness",
+        "kind": 2,
+        "importPath": "1",
+        "description": "1",
+        "peekOfCode": "def adjust_brightness(image_path, brightness):\n    image = cv2.imread(image_path)\n    adjusted_image = cv2.convertScaleAbs(image, beta=brightness)\n    cv2.imwrite(\"adjusted_image.jpg\", adjusted_image)\n@dp.message_handler(content_types=['photo'])\nasync def process_photo(message: types.Message):\n    file_id = message.photo[-1].file_id\n    file_path = await bot.get_file(file_id)\n    downloaded_file = await bot.download_file(file_path.file_path)\n    with open(\"user_image.jpg\", \"wb\") as f:",
+        "detail": "1",
+        "documentation": {}
+    },
+    {
+        "label": "TOKEN",
+        "kind": 5,
+        "importPath": "1",
+        "description": "1",
+        "peekOfCode": "TOKEN = \"6222270154:AAFcFa5W9ecys8MC68ZgKuQ0XRwFaMkRGpg\"\nlogging.basicConfig(level=logging.INFO)\nbot = Bot(token=TOKEN)\ndp = Dispatcher(bot)\ndp.middleware.setup(LoggingMiddleware())\ntask = []\ndef resize_image(image_path, width, height):\n    image = cv2.imread(image_path)\n    if width and height:\n        image_resized = cv2.resize(image, (width, height))",
+        "detail": "1",
+        "documentation": {}
+    },
+    {
+        "label": "bot",
+        "kind": 5,
+        "importPath": "1",
+        "description": "1",
+        "peekOfCode": "bot = Bot(token=TOKEN)\ndp = Dispatcher(bot)\ndp.middleware.setup(LoggingMiddleware())\ntask = []\ndef resize_image(image_path, width, height):\n    image = cv2.imread(image_path)\n    if width and height:\n        image_resized = cv2.resize(image, (width, height))\n    elif width is not None:\n        aspect_ratio = width / image.shape[1]",
+        "detail": "1",
+        "documentation": {}
+    },
+    {
+        "label": "dp",
+        "kind": 5,
+        "importPath": "1",
+        "description": "1",
+        "peekOfCode": "dp = Dispatcher(bot)\ndp.middleware.setup(LoggingMiddleware())\ntask = []\ndef resize_image(image_path, width, height):\n    image = cv2.imread(image_path)\n    if width and height:\n        image_resized = cv2.resize(image, (width, height))\n    elif width is not None:\n        aspect_ratio = width / image.shape[1]\n        new_height = int(image.shape[0] * aspect_ratio)",
+        "detail": "1",
+        "documentation": {}
+    },
+    {
+        "label": "task",
+        "kind": 5,
+        "importPath": "1",
+        "description": "1",
+        "peekOfCode": "task = []\ndef resize_image(image_path, width, height):\n    image = cv2.imread(image_path)\n    if width and height:\n        image_resized = cv2.resize(image, (width, height))\n    elif width is not None:\n        aspect_ratio = width / image.shape[1]\n        new_height = int(image.shape[0] * aspect_ratio)\n        image_resized = cv2.resize(image, (width, new_height))\n    else:",
+        "detail": "1",
+        "documentation": {}
+    },
+    {
+        "label": "resize_image",
+        "kind": 2,
+        "importPath": "2",
+        "description": "2",
+        "peekOfCode": "def resize_image(image_path, new_width, new_height):\n    image = Image.open(image_path)\n    resized_image = image.resize((new_width, new_height))\n    resized_image.save(image_path)\ndef rotate_image(image_path, angle):\n    image = Image.open(image_path)\n    rotated_image = image.rotate(angle)\n    rotated_image.save(image_path)\ndef adjust_brightness(image_path, brightness):\n    image = cv2.imread(image_path)",
+        "detail": "2",
+        "documentation": {}
+    },
+    {
+        "label": "rotate_image",
+        "kind": 2,
+        "importPath": "2",
+        "description": "2",
+        "peekOfCode": "def rotate_image(image_path, angle):\n    image = Image.open(image_path)\n    rotated_image = image.rotate(angle)\n    rotated_image.save(image_path)\ndef adjust_brightness(image_path, brightness):\n    image = cv2.imread(image_path)\n    adjusted_image = cv2.convertScaleAbs(image, beta=brightness)\n    cv2.imwrite(image_path, adjusted_image)\nresize_image(\"user_image.jpg\", 100, 200)\n# rotate_image(\"user_image.jpg\", 45)",
+        "detail": "2",
+        "documentation": {}
+    },
+    {
+        "label": "adjust_brightness",
+        "kind": 2,
+        "importPath": "2",
+        "description": "2",
+        "peekOfCode": "def adjust_brightness(image_path, brightness):\n    image = cv2.imread(image_path)\n    adjusted_image = cv2.convertScaleAbs(image, beta=brightness)\n    cv2.imwrite(image_path, adjusted_image)\nresize_image(\"user_image.jpg\", 100, 200)\n# rotate_image(\"user_image.jpg\", 45)\n# adjust_brightness(\"user_image.jpg\", 45)",
+        "detail": "2",
+        "documentation": {}
+    },
+    {
+        "label": "Form",
+        "kind": 6,
+        "importPath": "bot",
+        "description": "bot",
+        "peekOfCode": "class Form(StatesGroup):\n    task = State()\n    deadline = State()\ntasks = {}\nasync def on_startup(dp):\n    await bot.send_message(chat_id=1270860013, text='Bot has been started')\nasync def on_shutdown(dp):\n    await bot.send_message(chat_id=1270860013, text='Bot has been stopped')\n    await dp.storage.close()\n    await dp.storage.wait_closed()",
+        "detail": "bot",
+        "documentation": {}
+    },
+    {
+        "label": "BOT_TOKEN",
+        "kind": 5,
+        "importPath": "bot",
+        "description": "bot",
+        "peekOfCode": "BOT_TOKEN = '6222270154:AAFcFa5W9ecys8MC68ZgKuQ0XRwFaMkRGpg'\nAPI_KEY = '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'\nmessages = [{\"role\": \"system\", \"content\" : \"You’re a kind helpful assistant\"}]\nopenai.api_key = API_KEY\nbot = Bot(token=BOT_TOKEN)\nstorage = MemoryStorage()\ndp = Dispatcher(bot, storage=storage)\nclass Form(StatesGroup):\n    task = State()\n    deadline = State()",
+        "detail": "bot",
+        "documentation": {}
+    },
+    {
+        "label": "API_KEY",
+        "kind": 5,
+        "importPath": "bot",
+        "description": "bot",
+        "peekOfCode": "API_KEY = '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'\nmessages = [{\"role\": \"system\", \"content\" : \"You’re a kind helpful assistant\"}]\nopenai.api_key = API_KEY\nbot = Bot(token=BOT_TOKEN)\nstorage = MemoryStorage()\ndp = Dispatcher(bot, storage=storage)\nclass Form(StatesGroup):\n    task = State()\n    deadline = State()\ntasks = {}",
+        "detail": "bot",
+        "documentation": {}
+    },
+    {
+        "label": "messages",
+        "kind": 5,
+        "importPath": "bot",
+        "description": "bot",
+        "peekOfCode": "messages = [{\"role\": \"system\", \"content\" : \"You’re a kind helpful assistant\"}]\nopenai.api_key = API_KEY\nbot = Bot(token=BOT_TOKEN)\nstorage = MemoryStorage()\ndp = Dispatcher(bot, storage=storage)\nclass Form(StatesGroup):\n    task = State()\n    deadline = State()\ntasks = {}\nasync def on_startup(dp):",
+        "detail": "bot",
+        "documentation": {}
+    },
+    {
+        "label": "openai.api_key",
+        "kind": 5,
+        "importPath": "bot",
+        "description": "bot",
+        "peekOfCode": "openai.api_key = API_KEY\nbot = Bot(token=BOT_TOKEN)\nstorage = MemoryStorage()\ndp = Dispatcher(bot, storage=storage)\nclass Form(StatesGroup):\n    task = State()\n    deadline = State()\ntasks = {}\nasync def on_startup(dp):\n    await bot.send_message(chat_id=1270860013, text='Bot has been started')",
+        "detail": "bot",
+        "documentation": {}
+    },
+    {
+        "label": "bot",
+        "kind": 5,
+        "importPath": "bot",
+        "description": "bot",
+        "peekOfCode": "bot = Bot(token=BOT_TOKEN)\nstorage = MemoryStorage()\ndp = Dispatcher(bot, storage=storage)\nclass Form(StatesGroup):\n    task = State()\n    deadline = State()\ntasks = {}\nasync def on_startup(dp):\n    await bot.send_message(chat_id=1270860013, text='Bot has been started')\nasync def on_shutdown(dp):",
+        "detail": "bot",
+        "documentation": {}
+    },
+    {
+        "label": "storage",
+        "kind": 5,
+        "importPath": "bot",
+        "description": "bot",
+        "peekOfCode": "storage = MemoryStorage()\ndp = Dispatcher(bot, storage=storage)\nclass Form(StatesGroup):\n    task = State()\n    deadline = State()\ntasks = {}\nasync def on_startup(dp):\n    await bot.send_message(chat_id=1270860013, text='Bot has been started')\nasync def on_shutdown(dp):\n    await bot.send_message(chat_id=1270860013, text='Bot has been stopped')",
+        "detail": "bot",
+        "documentation": {}
+    },
+    {
+        "label": "dp",
+        "kind": 5,
+        "importPath": "bot",
+        "description": "bot",
+        "peekOfCode": "dp = Dispatcher(bot, storage=storage)\nclass Form(StatesGroup):\n    task = State()\n    deadline = State()\ntasks = {}\nasync def on_startup(dp):\n    await bot.send_message(chat_id=1270860013, text='Bot has been started')\nasync def on_shutdown(dp):\n    await bot.send_message(chat_id=1270860013, text='Bot has been stopped')\n    await dp.storage.close()",
+        "detail": "bot",
+        "documentation": {}
+    },
+    {
+        "label": "tasks",
+        "kind": 5,
+        "importPath": "bot",
+        "description": "bot",
+        "peekOfCode": "tasks = {}\nasync def on_startup(dp):\n    await bot.send_message(chat_id=1270860013, text='Bot has been started')\nasync def on_shutdown(dp):\n    await bot.send_message(chat_id=1270860013, text='Bot has been stopped')\n    await dp.storage.close()\n    await dp.storage.wait_closed()\nasync def send_deadline_reminder():\n    while True:\n        await asyncio.sleep(60)",
+        "detail": "bot",
+        "documentation": {}
+    }
+]
