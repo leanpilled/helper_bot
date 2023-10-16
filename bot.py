@@ -11,9 +11,9 @@ from pytz import utc
 
 logging.basicConfig(level=logging.INFO)
 
-BOT_TOKEN = '6222270154:AAFcFa5W9ecys8MC68ZgKuQ0XRwFaMkRGpg'
+BOT_TOKEN = ''
 
-API_KEY = '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'
+API_KEY = ''
 messages = [{"role": "system", "content" : "You’re a kind helpful assistant"}]
 openai.api_key = API_KEY
 

@@ -2,13 +2,11 @@ import logging
 import re
 from aiogram import Bot, Dispatcher, types
 from aiogram.contrib.middlewares.logging import LoggingMiddleware
-from aiogram.types import ParseMode
 from aiogram.utils import executor
-from aiogram.utils.markdown import text
 from PIL import Image
 import cv2
 
-TOKEN = "6222270154:AAFcFa5W9ecys8MC68ZgKuQ0XRwFaMkRGpg"
+TOKEN = ""
 
 logging.basicConfig(level=logging.INFO)
 bot = Bot(token=TOKEN)

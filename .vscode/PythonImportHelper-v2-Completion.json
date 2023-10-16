@@ -82,27 +82,11 @@
         "documentation": {}
     },
     {
-        "label": "ParseMode",
-        "importPath": "aiogram.types",
-        "description": "aiogram.types",
-        "isExtraImport": true,
-        "detail": "aiogram.types",
-        "documentation": {}
-    },
-    {
         "label": "executor",
         "importPath": "aiogram.utils",
         "description": "aiogram.utils",
         "isExtraImport": true,
         "detail": "aiogram.utils",
-        "documentation": {}
-    },
-    {
-        "label": "text",
-        "importPath": "aiogram.utils.markdown",
-        "description": "aiogram.utils.markdown",
-        "isExtraImport": true,
-        "detail": "aiogram.utils.markdown",
         "documentation": {}
     },
     {
@@ -244,7 +228,7 @@
         "kind": 5,
         "importPath": "1",
         "description": "1",
-        "peekOfCode": "TOKEN = \"6222270154:AAFcFa5W9ecys8MC68ZgKuQ0XRwFaMkRGpg\"\nlogging.basicConfig(level=logging.INFO)\nbot = Bot(token=TOKEN)\ndp = Dispatcher(bot)\ndp.middleware.setup(LoggingMiddleware())\ntask = []\ndef resize_image(image_path, width, height):\n    image = cv2.imread(image_path)\n    if width and height:\n        image_resized = cv2.resize(image, (width, height))",
+        "peekOfCode": "TOKEN = \"\"\nlogging.basicConfig(level=logging.INFO)\nbot = Bot(token=TOKEN)\ndp = Dispatcher(bot)\ndp.middleware.setup(LoggingMiddleware())\ntask = []\ndef resize_image(image_path, width, height):\n    image = cv2.imread(image_path)\n    if width and height:\n        image_resized = cv2.resize(image, (width, height))",
         "detail": "1",
         "documentation": {}
     },
@@ -316,7 +300,7 @@
         "kind": 5,
         "importPath": "bot",
         "description": "bot",
-        "peekOfCode": "BOT_TOKEN = '6222270154:AAFcFa5W9ecys8MC68ZgKuQ0XRwFaMkRGpg'\nAPI_KEY = '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'\nmessages = [{\"role\": \"system\", \"content\" : \"You’re a kind helpful assistant\"}]\nopenai.api_key = API_KEY\nbot = Bot(token=BOT_TOKEN)\nstorage = MemoryStorage()\ndp = Dispatcher(bot, storage=storage)\nclass Form(StatesGroup):\n    task = State()\n    deadline = State()",
+        "peekOfCode": "BOT_TOKEN = ''\nAPI_KEY = ''\nmessages = [{\"role\": \"system\", \"content\" : \"You’re a kind helpful assistant\"}]\nopenai.api_key = API_KEY\nbot = Bot(token=BOT_TOKEN)\nstorage = MemoryStorage()\ndp = Dispatcher(bot, storage=storage)\nclass Form(StatesGroup):\n    task = State()\n    deadline = State()",
         "detail": "bot",
         "documentation": {}
     },
@@ -325,7 +309,7 @@
         "kind": 5,
         "importPath": "bot",
         "description": "bot",
-        "peekOfCode": "API_KEY = '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'\nmessages = [{\"role\": \"system\", \"content\" : \"You’re a kind helpful assistant\"}]\nopenai.api_key = API_KEY\nbot = Bot(token=BOT_TOKEN)\nstorage = MemoryStorage()\ndp = Dispatcher(bot, storage=storage)\nclass Form(StatesGroup):\n    task = State()\n    deadline = State()\ntasks = {}",
+        "peekOfCode": "API_KEY = ''\nmessages = [{\"role\": \"system\", \"content\" : \"You’re a kind helpful assistant\"}]\nopenai.api_key = API_KEY\nbot = Bot(token=BOT_TOKEN)\nstorage = MemoryStorage()\ndp = Dispatcher(bot, storage=storage)\nclass Form(StatesGroup):\n    task = State()\n    deadline = State()\ntasks = {}",
         "detail": "bot",
         "documentation": {}
     },
